@@ -7,9 +7,7 @@ on:
     - cron: '0 3 * * 0'  # 每周日北京时间11:00（UTC 3:00）
   workflow_dispatch:         # 手动触发按钮
 
-  # 🚀 添加此全局环境变量，强制要求所有 Actions 步骤使用 Node.js 24 内核运行
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
   
 
 jobs:
